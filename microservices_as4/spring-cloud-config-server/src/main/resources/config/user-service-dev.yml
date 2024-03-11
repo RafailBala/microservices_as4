@@ -1,0 +1,11 @@
+spring:
+  active:
+   profile: dev
+my:
+  property:
+    test: User service!
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka

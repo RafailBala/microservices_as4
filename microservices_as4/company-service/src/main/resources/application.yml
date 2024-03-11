@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: company-service
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL}
+  datasource:
+    #url: jdbc:postgresql://host.docker.internal:5433/microservices?currentSchema=company-schema
+    url: jdbc:postgresql://127.0.0.1:5433/microservices?currentSchema=company-schema
+    username: "rafa"
+    password: password
+    dbcp2:
+      default-read-only: off
+  flyway:
+   baselineOnMigrate: true
+
+
+

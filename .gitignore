@@ -1,0 +1,198 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Intellij+all Patch ###
+# Ignore everything but code style settings and run configurations
+# that are supposed to be shared within teams.
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+#*.ipr
+
+# CMake
+cmake-build-*/
+
+# File-based project format
+#*.iws
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+### Maven ###
+#target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+/.mvn/
+/mvnw
+/mvnw.bat
+mvnw.cmd
+/log/
+*.log*
+
+# Eclipse m2e generated files
+# Eclipse Core
+#.project
+# JDT-specific (Eclipse Java Development Tools)
+#.classpath
+
+.gem
+*.rbc
+*.secret
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+/Thumbs.db
+db/*.sqlite3
+
+## Mac:
+/.DS_Store
+
+
+## Eclipse, Spring, and Gradle:
+.classpath
+.project
+.settings
+.factorypath
+.springBeans
+*.pydevproject
+.metadata
+.gradle
+bin/
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+# Locally stored "Eclipse launch configurations"
+*.launch
+# CDT-specific
+.cproject
+# PDT-specific
+.buildpath
+# sbteclipse plugin
+.target
+# TeXlipse plugin
+.texlipse
+
+## NetBeans:
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+## RubyMotion:
+.dat*
+.repl_history
+
+## Elixir:
+/_build
+/cover
+/deps
+erl_crash.dump
+*.ez
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalisation:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc

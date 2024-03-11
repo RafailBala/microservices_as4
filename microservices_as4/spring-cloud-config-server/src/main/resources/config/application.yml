@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    bootstrap:
+      enabled: true
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        jobs:
+          batch_size: 100
+        order_inserts: true
+        order_updates: true
+        generate_statistics: false
+        format_sql: true
